@@ -31,7 +31,7 @@ function Quiz() {
       <button onClick={() => setOptionChosen("A")}>
       {Questions[currQuestion].optionA}{" "}</button>
       <button onClick={() => setOptionChosen("B")}>
-        {Questions[currQuestion].optionC}{" "}</button>
+        {Questions[currQuestion].optionB}{" "}</button>
       <button onClick={() => setOptionChosen("C")}>
         {Questions[currQuestion].optionC}{" "}</button>
       <button onClick={() => setOptionChosen("D")}> 
